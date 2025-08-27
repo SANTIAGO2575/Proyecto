@@ -1,0 +1,272 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.formulario_docente{
+    width: 1200px;
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(58, 149, 165);
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.formulario_docente form{
+    position: relative;
+    opacity: 1;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.formulario_docente form{
+    position: relative;
+    opacity: 1;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightcoral;
+    max-width: 100%;
+}
+
+.carrusel-pr{
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    height: 1000px;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel-pr button{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+}
+.controles{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.controles button:hover{
+    background-color: 0,0,0,0.8;
+}
+@media(max-width: 768px){
+    .carrusel-pr{
+        height: 200px;
+    }
+}
+
+
+.formulario_docente, h2{
+    color: navy;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.formulario_docente, label{
+    font-size: 24px;
+    color: navy;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+.formulario_docente input{
+    width: 300px;
+    max-width: 100%;
+    height: 40px;
+    max-height: 100%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+.formulario_docente select{
+    width: 300px;
+    max-width: 100%;
+    height: 40px;
+    max-height: 100%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+.formulario_docente button{
+    color: white;
+    background-color: navy;
+    font-family: 'Courier New', Courier, serif;
+    font-weight: bold;
+    width: 200px;
+    max-width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+/* contacto */
+.formulario_contacto{
+    width: 1000px;
+    height: auto;
+    background-color: orange;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+.formulario_contacto label{
+    font-size: 24px;
+    color: navy;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+.formulario_contacto input{
+    width: 300px;
+    max-width: 100%;
+    height: 40px;
+    max-height: 100%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+.formulario_contacto select{
+    width: 300px;
+    max-width: 100%;
+    height: 40px;
+    max-height: 100%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+.formulario_contacto button{
+    color: white;
+    background-color: navy;
+    font-family: 'Courier New', Courier, serif;
+    font-weight: bold;
+    width: 200px;
+    max-width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+/* profesional */
+.formulario_profesional{
+    width: 1000px;
+    height: 2000px;
+    max-width: 100%;
+    background-color: rgb(21, 141, 51);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+.formulario_profesional label{
+    font-size: 24px;
+    color: navy;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+.formulario_profesional input{
+    width: auto;
+    max-width: 100%;
+    height: 40px;
+    max-height: 100%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+.formulario_profesional select{
+    width: 300px;
+    max-width: 100%;
+    height: 40px;
+    max-height: 100%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+.formulario_profesional button{
+    color: white;
+    background-color: navy;
+    font-family: 'Courier New', Courier, serif;
+    font-weight: bold;
+    width: 200px;
+    max-width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+/* otros */
+.formulario_otros{
+    width: 12000px;
+    height: 1000px;
+    background-color: orange;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+.formulario_otros label{
+    font-size: 24px;
+    color: navy;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+.formulario_otros input{
+    width: 300px;
+    max-width: 100%;
+    height: 40px;
+    max-height: 100%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+.formulario_otros select{
+    width: 300px;
+    max-width: 100%;
+    height: 40px;
+    max-height: 100%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+.formulario_otros button{
+    color: white;
+    background-color: navy;
+    font-family: 'Courier New', Courier, serif;
+    font-weight: bold;
+    width: 200px;
+    max-width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 24px;
+}
