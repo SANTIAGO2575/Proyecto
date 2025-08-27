@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sitio Web</title>
+        <link rel="stylesheet" href="pag_general.css">
+        <link rel="stylesheet" href="alta.css">
+    </head>
+    <body>
+        <h1>Alta de Alumnos</h1>
+
+        <div class="carrusel">
+            <div class="formulario_alta">
+            <!-- <h2>Datos Personales</h2> -->
+            <form action="#" class="personal">
+                <h2>Informacion Personal</h2>
+            <ul>
+                <label for="nombres" aria-placeholder="Nombre">Nombre(s)</label>
+            </ul>
+            <ul>
+                <input type="text" placeholder="Nombre(s)" required>
+            </ul>
+            <ul>
+                <label for="apellido_paterno" aria-placeholder="Apellido Paterno" >Apellido Paterno</label>
+            </ul>
+            <ul><input type="text" placeholder="Apellido Paterno" required></ul>
+            <ul>
+                <label for="apellido_materno" aria-placeholder="Apellido Materno" >Apellido Materno</label>
+            </ul>
+            <ul>
+                <input type="text" placeholder="Apellido Materno" required>
+            </ul>
+            <ul>
+                <label for="f_nacimiento" aria-placeholder="Fecha de nacimiento" >Fecha de nacimiento</label>
+            </ul>
+            <ul>
+                <input type="date" placeholder="Apellido Materno" required>
+            </ul>
+            <ul>
+                <label for="genero" aria-placeholder="Genero" >Genero</label>
+            </ul>
+            <ul class="radio_g" >
+                <input type="radio" name="genero" value="masculino" required>Masculino
+                <input type="radio" name="genero" value="femenino" required>Femenino
+            </ul>
+            <ul>
+                <label for="curp" aria-placeholder="curp" >CURP</label>
+            </ul>
+            <ul>
+                <input type="number" placeholder="CURP" required>
+            </ul>
+            <ul>
+                <label for="fotografia" aria-placeholder="Fotografia">Fotografia</label>
+            </ul>
+            <ul>
+                <input type="file" name="Fotografia" required>
+            </ul>
+            <ul>
+                <button>
+                    Guardar
+                </button>
+            </ul>
+        </form>
+        <form action="#" class="Contacto">
+            <h2>Informacion de Contacto</h2>
+            <ul>
+                <label for="direccion_completa" aria-placeholder="Nombre">Direccion Completa</label>
+            </ul>
+            <ul>
+                <input type="text" placeholder="Direccion Completa" required>
+            </ul>
+            <ul>
+                <label for="Telefono del alumno" aria-placeholder="Apellido Paterno" >Telefono del alumno</label>
+            </ul>
+            <ul>
+                <input type="tel" placeholder="Telefono del alumno" required>
+            </ul>
+            <ul>
+                <label for="correo electronico" aria-placeholder="Nombre">Correo electronico del alumno</label>
+            </ul>
+            <ul>
+                <input type="email" placeholder="Correo electronico del alumno" required>
+            </ul>
+            <ul>
+                <label for="telefono de emergencia" aria-placeholder="Telefono de emergencia" >Telefono de emergencia</label>
+            </ul>
+            <ul>
+                <input type="tel" placeholder="Telefono de emergencia" required>
+            </ul>
+            <ul>
+                <button>
+                    Guardar
+                </button>
+            </ul>
+
+        </form>
+        <form action="#" class="academica">
+            <h2>Informacion Academica</h2>
+            <ul>
+                <label for="grado_cursar" aria-placeholder="Grado a cursar">Smestre a cursar</label>
+            </ul>
+            <ul>
+                <select name="grado" id="grado">
+                <option value="1">I</option>
+                <option value="3">III</option>
+                <option value="5">V</option>
+
+            </select>
+            </ul>
+            <ul>
+                <label for="turno" aria-placeholder="Turno" >Turno</label>
+            </ul>
+            <ul><select name="Turno" id="turno">
+                <option value="M">Matutino</option>
+                <option value="V">Vespertino</option>
+
+            </select></ul>
+            <ul>
+                <label for="escuela_procedencia" aria-placeholder="Escuela de procedencia">Escuela de procedencia</label>
+            </ul>
+            <ul>
+                <input type="text" placeholder="Escuela de procedencia" required>
+            </ul>
+            <ul>
+                <label for="matricula" aria-placeholder="Matricula">Matricula</label>
+            </ul>
+            <ul>
+                <input type="number" placeholder="Matricula" required>
+            </ul>
+
+            <ul>
+                <label for="nombre_padre_tutor" aria-placeholder="Nombre del padre o tutor" >Nombre del padre o tutor</label>
+            </ul>
+            <ul>
+                <input type="text" placeholder="Nombre del padre o tutor" required>
+            </ul>
+            <ul>
+                <button>
+                    Guardar
+                </button>
+            </ul>
+
+        </form>
+        </div>
+        </div>
+        
+        
+        
+    </body>
+</html>
